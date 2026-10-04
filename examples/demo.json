@@ -1,0 +1,47 @@
+{
+  "format": "threadtrace/0.1",
+  "title": "Harbor Light disappearance notes",
+  "created_at": "2026-10-04T17:30:00Z",
+  "items": [
+    {
+      "id": "T001",
+      "claim": "Severe weather is one plausible explanation for the disappearance.",
+      "status": "unresolved",
+      "sources": [
+        {
+          "label": "Investigator's report"
+        },
+        {
+          "label": "Contemporary weather record",
+          "url": "https://example.com/weather-record"
+        }
+      ],
+      "note": "Demo data. The event and sources here are illustrative.",
+      "history": [
+        {
+          "at": "2026-10-04T17:30:00Z",
+          "action": "created",
+          "claim": "The keepers left because of a storm.",
+          "status": "inference",
+          "reason": "Initial hypothesis from an investigator's description of dangerous conditions."
+        },
+        {
+          "at": "2026-10-04T17:35:00Z",
+          "action": "revised",
+          "claim": "Severe weather is one plausible explanation for the disappearance.",
+          "status": "unresolved",
+          "reason": "The source supports dangerous conditions, not a confirmed cause.",
+          "previous_claim": "The keepers left because of a storm.",
+          "previous_status": "inference"
+        },
+        {
+          "at": "2026-10-04T17:40:00Z",
+          "action": "source-added",
+          "claim": "Severe weather is one plausible explanation for the disappearance.",
+          "status": "unresolved",
+          "reason": "Added a weather record for comparison."
+        }
+      ]
+    }
+  ]
+}
